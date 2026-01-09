@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let timeLeft = 120 * 60;
     let currentExam = null;  // Seçili sınavı saklayacağız
     let exams = [];  // Tüm sınavları saklayacağız
+    let correctAnswerShown = false;  // Doğru cevap gösterilip gösterilmediğini takip et
     
     // Her soru için karıştırılmış seçenek indekslerini saklayacağız
     let shuffledOptions = new Array(50).fill(null).map(() => []);
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const nextBtn = document.getElementById('next-btn');
     const prevBtn = document.getElementById('prev-btn');
     const markReviewBtn = document.getElementById('mark-review');
+    const showAnswerBtn = document.getElementById('show-answer-btn');
     const timer = document.getElementById('timer');
     const finishExamBtn = document.getElementById('finish-exam');
     const resultModal = document.getElementById('result-modal');
@@ -391,6 +393,12 @@ document.addEventListener('DOMContentLoaded', function () {
     function showQuestion(index) {
         if (index < 0 || index >= selectedQuestions.length) return;
 
+        // Yeni soru seçiliyorsa doğru cevab gösterim durumunu sıfırla
+        if (currentQuestionIndex !== index) {
+            correctAnswerShown = false;
+            updateShowAnswerButton();
+        }
+
         // Önceki aktif butonun durumunu güncelle
         const prevActiveBtn = document.querySelector('.question-btn[data-index="' + currentQuestionIndex + '"]');
         if (prevActiveBtn) {
@@ -430,8 +438,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 optionElement.querySelector('.custom-radio').innerHTML = '<div class="w-3 h-3 rounded-full bg-blue-600"></div>';
             }
 
-            // Sınav bittiyse doğru/yanlış renklerini göster
-            if (!examStarted) {
+            // Sınav bittiyse veya doğru cevap gösteriliyorsa renkler göster
+            if (!examStarted || correctAnswerShown) {
                 const correctShuffledIndex = shuffleInfo.correctIndexInShuffled;
                 if (shuffledPosition === correctShuffledIndex) {
                     optionElement.classList.add('bg-green-100', 'border-green-400');
@@ -441,7 +449,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     optionElement.classList.add('bg-red-100', 'border-red-400');
                     optionElement.querySelector('.custom-radio').innerHTML = '<div class="w-3 h-3 rounded-full bg-red-600"></div>';
                 }
-                optionElement.style.pointerEvents = 'none';
+                if (!examStarted) {
+                    optionElement.style.pointerEvents = 'none';
+                }
             }
 
             optionElement.addEventListener('click', (e) => {
@@ -589,6 +599,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Nəzərdən Keçir butonunu güncelle
         updateMarkReviewButton();
+    }
+
+    // Doğru cevabı göster/gizle işlevi
+    function toggleShowAnswer() {
+        if (!examStarted) return;
+
+        correctAnswerShown = !correctAnswerShown;
+        updateShowAnswerButton();
+
+        // Soruyu tekrar göster (doğru cevap gösterilsin veya gizlensin)
+        showQuestion(currentQuestionIndex);
+    }
+
+    // Doğru cevabı göster butonunu güncelle
+    function updateShowAnswerButton() {
+        if (!showAnswerBtn) return;
+        
+        if (correctAnswerShown) {
+            showAnswerBtn.innerHTML = '<i class="fas fa-eye-slash mr-2"></i>Doğru cavabı gizlət';
+        } else {
+            showAnswerBtn.innerHTML = '<i class="fas fa-lightbulb mr-2"></i>Düzgün cavabı göstər';
+        }
     }
 
     function updateStats() {
@@ -771,6 +803,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Nəzərdən Keçir butonuna tıklama olayı
     markReviewBtn.addEventListener('click', toggleMarkForReview);
+
+    // Doğru cevabı göster/gizle butonuna tıklama olayı
+    showAnswerBtn.addEventListener('click', toggleShowAnswer);
 
     finishExamBtn.addEventListener('click', finishExam);
 
