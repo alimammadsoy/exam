@@ -4,11 +4,5 @@
     "name": "İT Təhlükəsizlik",
     "csvFile": "questions-v1.csv",
     "questionCount": 250
-  },
-  {
-    "id": 2,
-    "name": "İT Təhlükəsizlik - 2",
-    "csvFile": "questions-v1 copy.csv",
-    "questionCount": 250
   }
 ]
