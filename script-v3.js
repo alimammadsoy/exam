@@ -46,6 +46,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const errorMessage = document.getElementById('error-message');
     const examSelect = document.getElementById('exam-select');
     const startExamBtn = document.getElementById('start-exam-btn');
+    const modalCancelBtn = document.getElementById('modal-cancel');
+    const finishExamModal = document.getElementById('finish-exam-modal');
+    const cancelFinishExamBtn = document.getElementById('cancel-finish-exam');
+    const confirmFinishExamBtn = document.getElementById('confirm-finish-exam');
 
     // İstatistik elementleri
     const correctCountElement = document.getElementById('correct-count');
@@ -195,6 +199,11 @@ document.addEventListener('DOMContentLoaded', function () {
             tabRangeBtn.classList.remove('bg-blue-500', 'text-white');
             errorMessage.classList.add('hidden');
         });
+
+        // Modalı kapatma (Geri butonu)
+        modalCancelBtn.addEventListener('click', () => {
+            hideRangeModal();
+        });
         
         // İmtahana başla butonu (modal içinde)
         confirmRangeBtn.addEventListener('click', function handleConfirmRange() {
@@ -266,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 shuffledOptions[index] = shuffleOptions(question.options, question.correct_answer);
             });
             
-            rangeModal.classList.add('hidden');
+            hideRangeModal();
             initializeExam();
         });
     }
@@ -274,6 +283,10 @@ document.addEventListener('DOMContentLoaded', function () {
     function showRangeModal() {
         rangeModal.classList.remove('hidden');
         errorMessage.classList.add('hidden');
+    }
+    
+    function hideRangeModal() {
+        rangeModal.classList.add('hidden');
     }
     
     function showError(message) {
@@ -371,6 +384,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function initializeExam() {
         examStarted = true;
+        startExamBtn.disabled = true;
+        startExamBtn.classList.add('opacity-50', 'cursor-not-allowed');
+        finishExamBtn.disabled = false;
         createQuestionButtons();
         showQuestion(currentQuestionIndex);
         updateStats();
@@ -490,7 +506,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Son soruda "Növbəti" butonunu "İmtahanı Bitir" yap
         if (index === selectedQuestions.length - 1) {
-            nextBtn.innerHTML = 'İmtahanı Bitir <i class="fas fa-flag ml-2"></i>';
+            nextBtn.innerHTML = 'İmtahanı bitir <i class="fas fa-flag ml-2"></i>';
             nextBtn.classList.remove('bg-blue-600', 'hover:bg-blue-700');
             nextBtn.classList.add('bg-red-500', 'hover:bg-red-600');
         } else {
@@ -759,9 +775,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function finishExam() {
         if (examStarted) {
-            if (confirm('İmtahanı bitirmək istədiyinizə əminsiniz?')) {
-                showResults();
-            }
+            finishExamModal.classList.remove('hidden');
         }
     }
 
@@ -778,6 +792,9 @@ document.addEventListener('DOMContentLoaded', function () {
         
         timeLeft = 120 * 60;
         examStarted = true;
+        startExamBtn.disabled = true;
+        startExamBtn.classList.add('opacity-50', 'cursor-not-allowed');
+        finishExamBtn.disabled = false;
         resultModal.classList.add('hidden');
 
         // Soru butonlarını sıfırla
@@ -809,8 +826,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     finishExamBtn.addEventListener('click', finishExam);
 
+    // Finish exam modal event listeners
+    cancelFinishExamBtn.addEventListener('click', () => {
+        finishExamModal.classList.add('hidden');
+    });
+
+    confirmFinishExamBtn.addEventListener('click', () => {
+        finishExamModal.classList.add('hidden');
+        showResults();
+    });
+
     closeModal.addEventListener('click', () => {
         resultModal.classList.add('hidden');
+        startExamBtn.disabled = false;
+        startExamBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+        finishExamBtn.disabled = true;
     });
 
     restartExamBtn.addEventListener('click', restartExam);

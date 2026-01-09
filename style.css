@@ -102,3 +102,30 @@ body {
 .pulse {
     animation: pulse 1.5s infinite;
 }
+
+/* Modal Açılış/Kapanış Transitionları */
+#range-modal,
+#finish-exam-modal,
+#result-modal {
+    transition: opacity 0.3s ease;
+}
+
+#range-modal.hidden,
+#finish-exam-modal.hidden,
+#result-modal.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#range-modal > div,
+#finish-exam-modal > div,
+#result-modal > div {
+    transition: all 0.3s ease;
+}
+
+#range-modal.hidden > div,
+#finish-exam-modal.hidden > div,
+#result-modal.hidden > div {
+    transform: scale(0.95) translateY(-20px);
+    opacity: 0;
+}
