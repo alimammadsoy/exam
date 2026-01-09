@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let markedForReview = new Array(50).fill(false);
     let examStarted = false;
     let timerInterval = null;
-    let timeLeft = 60 * 60;
+    let timeLeft = 120 * 60;
     let currentExam = null;  // Seçili sınavı saklayacağız
     let exams = [];  // Tüm sınavları saklayacağız
     
@@ -744,7 +744,7 @@ document.addEventListener('DOMContentLoaded', function () {
             shuffledOptions[index] = shuffleOptions(question.options, question.correct_answer);
         });
         
-        timeLeft = 60 * 60;
+        timeLeft = 120 * 60;
         examStarted = true;
         resultModal.classList.add('hidden');
 
