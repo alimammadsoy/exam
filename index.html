@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İT Təhlükəsizlik Demo İmtahanı</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Aralık/Soru Seçim Modalı -->
+    <div id="range-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white p-8 rounded-xl shadow-lg w-96 text-center">
+            <h2 class="text-2xl font-bold mb-6 text-gray-800">İmtahanı seçin və sualları qeyd edin</h2>
+            
+            <!-- Sınav Seçimi -->
+            <div class="mb-6">
+                <label for="exam-select" class="block mb-2 font-medium text-gray-700 text-left">İmtahan seçin:</label>
+                <select id="exam-select" class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                    <option value="">Bir imtahan seçin...</option>
+                </select>
+            </div>
+            
+            <!-- Tab Seçenekleri -->
+            <div class="flex gap-2 mb-6">
+                <button id="tab-range" class="flex-1 py-2 px-4 bg-blue-500 text-white rounded-lg font-medium transition-colors">
+                    Aralıq
+                </button>
+                <button id="tab-numbers" class="flex-1 py-2 px-4 bg-gray-300 text-gray-700 rounded-lg font-medium transition-colors hover:bg-gray-400">
+                    Sual Nömrələri
+                </button>
+            </div>
+
+            <!-- Aralıq Seçim Paneli -->
+            <div id="range-panel" class="mb-6">
+                <p class="mb-4 text-left text-gray-600 text-sm">Sual aralığını seçin.</p>
+
+                <div class="mb-4 flex gap-4">
+                    <div class="flex-1">
+                        <label for="range-start" class="block mb-2 font-medium text-gray-700 text-sm">Başlanğıc:</label>
+                        <input type="number" id="range-start" min="1" max="500" value="1"
+                            class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                    </div>
+
+                    <div class="flex-1">
+                        <label for="range-end" class="block mb-2 font-medium text-gray-700 text-sm">Son:</label>
+                        <input type="number" id="range-end" min="1" max="500" value="500"
+                            class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sual Nömrələri Seçim Paneli -->
+            <div id="numbers-panel" class="mb-6 hidden">
+                <p class="mb-4 text-left text-gray-600 text-sm">Sual nömrələrini yazın (nümünə: 1,5-10,15,20-25):</p>
+                <textarea id="question-numbers" placeholder="1,5-10,15,20-25,30"
+                    class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none h-20"
+                    spellcheck="false"></textarea>
+                <p class="text-xs text-gray-500 mt-2">Vergüllə ayırın, aralıq üçün tire (-) istifadə edin</p>
+            </div>
+
+            <!-- Error mesaj -->
+            <div id="error-message" class="mb-4 p-3 bg-red-100 text-red-700 rounded-lg hidden text-sm"></div>
+
+            <button id="confirm-range"
+                class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors">
+                İmtahana başla
+            </button>
+        </div>
+    </div>
+
+
+
+    <div class="container mx-auto px-4 py-6">
+        <!-- Başlık -->
+        <header class="mb-8 text-center">
+            <h1 class="text-2xl md:text-3xl font-bold text-blue-800">
+                <i class="fas fa-shield-alt mr-2"></i>İmtahana xoş gəlmisiniz!
+            </h1>
+            <p class="text-gray-600 mt-2">50 təsadüfi sual | Cavablarınızı yoxlayın</p>
+            <button id="start-exam-btn" class="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 inline-flex items-center gap-2">
+                <i class="fas fa-play mr-2"></i>İmtahana başla
+            </button>
+        </header>
+
+        <div class="flex flex-col lg:flex-row gap-6">
+            <!-- Sol panel (20%) - Sınav bilgileri -->
+            <div class="lg:w-1/5 bg-white rounded-xl shadow-lg p-5">
+                <div class="mb-6">
+                    <h2 class="text-lg font-bold text-gray-800 mb-4">
+                        <i class="fas fa-info-circle mr-2 text-blue-600"></i>İmtahan Məlumatı
+                    </h2>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Cəmi sual:</span>
+                            <span class="font-bold" id="total-questions">50</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Cavablanan:</span>
+                            <span class="font-bold text-green-600" id="answered-questions">0</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Qalan:</span>
+                            <span class="font-bold text-blue-600" id="remaining-questions">50</span>
+                        </div>
+                        <div class="pt-3 border-t">
+                            <div class="text-gray-600 mb-2">Vaxt:</div>
+                            <div class="text-2xl font-mono font-bold text-gray-800" id="timer">60:00</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <h3 class="text-md font-bold text-gray-800 mb-3">
+                        <i class="fas fa-chart-pie mr-2 text-blue-600"></i>Statistika
+                    </h3>
+                    <div class="space-y-2">
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
+                            <span class="text-gray-600">Düzgün:</span>
+                            <span class="ml-auto font-bold" id="correct-count">0</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
+                            <span class="text-gray-600">Səhv:</span>
+                            <span class="ml-auto font-bold" id="wrong-count">0</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-gray-300 rounded-full mr-2"></div>
+                            <span class="text-gray-600">Cavabsız:</span>
+                            <span class="ml-auto font-bold" id="unanswered-count">50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h3 class="text-md font-bold text-gray-800 mb-3">
+                        <i class="fas fa-key mr-2 text-blue-600"></i>Rəng Açıqlamaları
+                    </h3>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 border border-gray-400 rounded mr-2"></div>
+                            <span>Cavabsız sual</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-green-500 rounded mr-2"></div>
+                            <span>Düzgün cavab</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-red-500 rounded mr-2"></div>
+                            <span>Səhv cavab</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="finish-exam"
+                    class="w-full bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300 mt-4">
+                    <i class="fas fa-flag mr-2"></i>İmtahanı Bitir
+                </button>
+            </div>
+
+            <!-- Orta panel (60%) - Soru içeriği -->
+            <div class="lg:w-3/5 bg-white rounded-xl shadow-lg p-6">
+                <div class="mb-6">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-xl font-bold text-gray-800">
+                            Sual <span id="current-question-number">1</span>/50
+                        </h2>
+                        <div class="text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full">
+                            <span id="question-category">İmtahan sualları</span>
+                        </div>
+                    </div>
+
+                    <!-- İlerleme çubuğu -->
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
+                        <div id="progress-bar" class="bg-blue-600 h-2.5 rounded-full" style="width: 2%"></div>
+                    </div>
+                </div>
+
+                <!-- Soru metni -->
+                <div class="mb-8">
+                    <h3 id="question-text" class="text-lg font-medium text-gray-800 mb-6 leading-relaxed">
+                        Suallar yüklənir...
+                    </h3>
+
+                    <!-- Seçenekler -->
+                    <div id="options-container" class="space-y-3">
+                        <!-- Seçenekler buraya JavaScript ile eklenecek -->
+                        <div class="flex items-center p-4 border border-gray-300 rounded-lg animate-pulse">
+                            <div class="w-6 h-6 rounded-full border-2 border-gray-400 mr-4"></div>
+                            <div class="h-4 bg-gray-300 rounded w-3/4"></div>
+                        </div>
+                        <div class="flex items-center p-4 border border-gray-300 rounded-lg animate-pulse">
+                            <div class="w-6 h-6 rounded-full border-2 border-gray-400 mr-4"></div>
+                            <div class="h-4 bg-gray-300 rounded w-2/3"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigasyon butonları -->
+                <div class="flex justify-between pt-6 border-t">
+                    <button id="prev-btn"
+                        class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed">
+                        <i class="fas fa-arrow-left mr-2"></i>Əvvəlki
+                    </button>
+
+                    <div class="flex space-x-4">
+                        <button id="mark-review"
+                            class="bg-yellow-100 hover:bg-yellow-200 text-yellow-800 font-bold py-3 px-4 rounded-lg transition duration-300">
+                            <i class="fas fa-bookmark mr-2"></i>Nəzərdən Keçir
+                        </button>
+
+                        <button id="next-btn"
+                            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            Növbəti <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sağ panel (20%) - Soru butonları -->
+            <div class="lg:w-1/5">
+                <div class="bg-white rounded-xl shadow-lg p-5">
+                    <h2 class="text-lg font-bold text-gray-800 mb-4">
+                        <i class="fas fa-list-ol mr-2 text-blue-600"></i>Sual Siyahısı
+                    </h2>
+                    <p class="text-sm text-gray-600 mb-4">İstədiyiniz suala keçmək üçün klikləyin:</p>
+
+                    <!-- Soru butonları grid'i -->
+                    <div id="question-buttons" class="grid grid-cols-5 gap-2">
+                        <!-- Soru butonları buraya JavaScript ile eklenecek -->
+                        <!-- Örnek butonlar -->
+                        <div
+                            class="w-10 h-10 border border-gray-300 rounded flex items-center justify-center animate-pulse bg-gray-200">
+                        </div>
+                        <div
+                            class="w-10 h-10 border border-gray-300 rounded flex items-center justify-center animate-pulse bg-gray-200">
+                        </div>
+                        <div
+                            class="w-10 h-10 border border-gray-300 rounded flex items-center justify-center animate-pulse bg-gray-200">
+                        </div>
+                        <div
+                            class="w-10 h-10 border border-gray-300 rounded flex items-center justify-center animate-pulse bg-gray-200">
+                        </div>
+                        <div
+                            class="w-10 h-10 border border-gray-300 rounded flex items-center justify-center animate-pulse bg-gray-200">
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t">
+                        <h3 class="text-md font-bold text-gray-800 mb-3">Təlimatlar:</h3>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li><i class="fas fa-check-circle text-green-500 mr-1"></i> Yalnız bir cavab seçin</li>
+                            <li><i class="fas fa-clock text-blue-500 mr-1"></i> Vaxt həddi: 60 dəqiqə</li>
+                            <li><i class="fas fa-undo text-gray-500 mr-1"></i> Cavabınızı dəyişə bilərsiniz</li>
+                            <li><i class="fas fa-flag text-red-500 mr-1"></i> İmtahanı vaxtından əvvəl bitirə bilərsiniz
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-8 text-center text-gray-500 text-sm">
+            <p>© 2026 Demo İmtahanı Portalı. Bütün hüquqlar qorunur.</p>
+            <p class="mt-1">Bu, təhsil məqsədləri üçün hazırlanmış demo imtahanıdır.</p>
+        </footer>
+    </div>
+
+    <!-- Sonuç Modalı -->
+    <div id="result-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+        <div class="bg-white rounded-xl shadow-2xl max-w-md w-full mx-4 p-6">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">İmtahan Nəticəsi</h2>
+
+            <div class="space-y-4 mb-6">
+                <div class="flex justify-between">
+                    <span class="text-gray-600">Düzgün cavablar:</span>
+                    <span class="font-bold text-green-600" id="modal-correct">0</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-gray-600">Səhv cavablar:</span>
+                    <span class="font-bold text-red-600" id="modal-wrong">0</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-gray-600">Cavab verilməyən:</span>
+                    <span class="font-bold text-gray-600" id="modal-unanswered">0</span>
+                </div>
+                <div class="pt-3 border-t">
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Ümumi nəticə:</span>
+                        <span class="font-bold text-xl" id="modal-score">0%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🔵 Rentonda Tövsiyə Bölməsi -->
+            <!-- <div class="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <h3 class="text-sm font-bold text-blue-800 mb-2 flex items-center">
+                    <i class="fas fa-star mr-2"></i> Bu imtahanı bəyəndiniz?
+                </h3>
+
+                <p class="text-sm text-gray-700 leading-relaxed mb-2">
+                    Əgər imtahan sistemi sizə faydalı oldusa, digər layihəmiz olan
+                    <strong class="text-blue-700"><a href="https://rentonda.com">rentonda.com</a></strong> platformasına
+                    da baxa bilərsiniz.
+                    Rentonda vasitəsilə avtomobil icarəyə verə və ya sizə uyğun avtomobili asanlıqla tapa bilərsiniz.
+                </p>
+
+                <p class="text-sm text-gray-700 mb-3">
+                    <a href="https://rentonda.com/az/haqqimizda" target="_blank"
+                        class="text-blue-600 hover:text-blue-800 font-semibold underline underline-offset-2">
+                        Rentonda haqqında daha çox məlumat alın
+                    </a>
+                </p>
+
+                <p class="text-xs text-gray-600 mb-3">
+                    Dostlarınıza və tanışlarınıza <strong>rentonda.com</strong> platformasını tövsiyə edərək bizə dəstək
+                    ola bilərsiniz 🙏
+                </p>
+
+                <a href="https://rentonda.com" target="_blank"
+                    class="inline-flex items-center justify-center w-full bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-2 px-4 rounded-lg transition duration-300">
+                    <i class="fas fa-car mr-2"></i> Rentonda platformasına keç
+                </a>
+            </div> -->
+
+
+            <div class="flex space-x-3">
+                <button id="close-modal"
+                    class="flex-1 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-4 rounded-lg transition duration-300">
+                    Bağla
+                </button>
+                <button id="restart-exam"
+                    class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                    Yenidən Başla
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script-v3.js"></script>
+</body>
+
+</html>
