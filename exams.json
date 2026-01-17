@@ -2,7 +2,31 @@
   {
     "id": 1,
     "name": "İT Təhlükəsizlik",
-    "csvFile": "questions-v1.csv",
+    "csvFile": "csv/questions-v1.csv",
     "questionCount": 250
+  },
+  {
+    "id": 2,
+    "name": "Ətraf mühitin iqtisadiyyatı",
+    "csvFile": "csv/etraf-muhitin-iqtisadiyyati-questions.csv",
+    "questionCount": 250
+  },
+  {
+    "id": 3,
+    "name": "İctimaiyyətlə əlaqələr",
+    "csvFile": "csv/ictimaiyyetle-elaqeler-questions.csv",
+    "questionCount": 246
+  },
+  {
+    "id": 4,
+    "name": "Maliyyə hesabatlılığı",
+    "csvFile": "csv/maliyye-hesabatliligi-questions.csv",
+    "questionCount": 248
+  },
+  {
+    "id": 5,
+    "name": "Sənayənin iqtisadiyyatı",
+    "csvFile": "csv/senayenin-iqtisadiyyati-questions.csv",
+    "questionCount": 244
   }
 ]

@@ -1,0 +1,251 @@
+﻿question_id,question_text,option_a,option_b,option_c,option_d,option_e,correct_answer_id
+1,Atmosferin əsas qaz komponentləri hansılardır?,"Azot, oksigen, digər qazlar","Hidrogen, oksigen, azot","Karbon qazı, oksigen, azot","Hidrogen, metan, karbon qazı","Azot, metan, hidrogen",a
+2,Atmosfer nədir?,Torpağın üst qatıdır,Yerin maqmatik təbəqəsidir,Yer kürəsini əhatə edən qaz təbəqəsidir,Günəşin radiasiyasıdır,Daş qatı,c
+3,İqlim ehtiyatlarının ekoloji-iqtisadi qiymətləndirilməsinin əsas məqsədi nədir,enerji mənbələrinin təmizliyi təmin etmək,Ekoloji təsirləri nəzərə almadan məhsuldarlığı artırmaq.,Ətraf mühitin qorunması üçün iqtisadiyyatın inkişafını ləngitmək.,Təbii resursların optimal istifadəsini təmin etmək.,karbon qazı və mətan qazı miqdarı artırmaq,d
+4,Külək enerjisindən istifadə maddi nemətlərin formalaşmasına necə təsir edir,düzgün variantli yoxdur,Kənd təsərrüfatında məhsuldarlığı azaldır.,Havanın çirklənməsini artırır.,Enerji mənbələrinin təmizliyini təmin edir.,yalnız oksigen səviyyəsi artır,d
+5,İqlim dəyişikliklərinin atmosferin kimyəvi tərkibinə təsiri nədir,Yalnız oksigen səviyyəsi artır.,İqlim dəyişikliklərinin atmosferə təsiri yoxdur.,Karbon qazı və metan qazının miqdarı artır.,Düzgün variant yoxdur,tullantılar yalnız havaya təsir edir,c
+6,Sənaye tullantılarının atmosferə təsiri nəticəsində hansı maddi nemətlərin keyfiyyəti dəyişir,Torpağın məhsuldarlığının azalmasına,Məhsulun keyfiyyəti artır.,Tullantılar yalnız havaya təsir edir.,Torpaq və suyun keyfiyyəti azalır.,iqlim dəyişikliklərinin,d
+7,Atmosferdəki çirklənmələrin kənd təsərrüfatına təsiri nədir,düzgün cavab yoxdur,Çirklənmələr təsirsiz qalır.,sənaye tullantıların çoxalması,Çirklənmələr məhsulun keyfiyyətini azaldır.,Çirklənmələr məhsulu artırır.,d
+8,Atmosferdə karbon qazının miqdarı bitkilərin böyüməsinə necə təsir edir,Artması fotosintezi sürətləndirir.,Hava axınına təsir edir,düzgün cavab yoxdur,Azalması bitki böyüməsini sürətləndirir.,Karbon qazının səviyyəsi təsirsizdir.,a
+9,Yağıntıların bölgüsü maddi nemətlərin istehsalına necə təsir edir,Bütün cavablar doğrudur,Çoxlu yağıntılar məhsuldarlığı həmişə artırır.,Yağıntılar maddi nemətlərə təsir etmir.,Yağıntıların qeyri-bərabər bölgüsü məhsuldarlığı azaldır.,Yağıntıların bərabər bölgüsü məhsuldarlığı çoxaldır,d
+10,Atmosferin temperatur dəyişiklikləri torpaq məhsuldarlığına necə təsir göstərir,Temperatur dəyişməsinə təsir göstərir,Temperaturun artması məhsuldarlığı azaldır.,Optimal temperatur şəraiti məhsuldarlığı artırır.,Temperaturun dəyişməsi heç bir təsir göstərmir.,Mineral ehtiyatlar azalması,c
+11,Fotosintez prosesində atmosferin hansı komponentləri iştirak edir,Karbon qazı və azot.,Karbon qazı və oksigen.,Karbon qazı və su buxarı.,Azot və oksigen,Düzgün cavab yoxdur,c
+12,Atmosferdə baş verən proseslər maddi nemətlərin formalaşmasına necə təsir edir,karbon dioksid səviyyəsi artması,Səth temperaturunun azalması ilə məhsuldarlığın azalması.,Enerjisinin yerə çatmasının qarşısını alır.,Fotosintez və su dövranı vasitəsilə.,Torpağın məhsuldarlığının azalması,d
+13,Biosferin ən böyük problemi nədir?,Düzgün cavab yoxdur,Təbii qazların tükənməsi,Yağışın azalması,İnsan fəaliyyəti nəticəsində yaranan çirklənmə,Vulkan püskürmələri,d
+14,Suyun biosferdə saxlanıldığı əsas məkan hansıdır?,Atmosfer,Buzlaqlar,Okeanlar,Tropik meşələr,Hamısı doğrudur,c
+15,Hansı təbii hadisə biosferdə biomüxtəlifliyin azalmasına səbəb olur?,Vulkan püskürməsi,Suyun buxarlanması,Hamısı doğrudur,Yağış,Meşə yanğınları,e
+16,Biosferin biomüxtəlifliyini qorumaq üçün əsas addım hansıdır?,Meşələrin yandırılması,Sənaye tullantılarının artırılması,Meşələrin qırılması,Milli parkların yaradılması,Su ehtiyatlarının israf edilməsi,d
+17,Hansı fəaliyyət biosferdə karbon qazının miqdarını artırır?,Fotosintez,Karbon qazının udulması,Sənaye emissiyaları,Yağış,Düzgün cavab yoxdur,c
+18,Hansı ekosistem biosferin karbon dövranına ən çox təsir edir?,Tundra,Çöllər,Düzgün cavab yoxdur,Arktik buzlaqlar,Tropik meşələr,e
+19,Biosferdə azotun dövranında əsas rolu hansı orqanizmlər oynayır?,Sürünənlər,Torpaq bakteriyaları,Quşlar,Balıqlar,Bitkilər,b
+20,Biosferin biomüxtəlifliyinə insan müdaxiləsinin ən müsbət təsiri nə ola bilər?,Ekosistemlərin tərk edilməsi,Qlobal istiləşmə,Plastik tullantıların artırılması,Meşələrin məhv edilməsi,Biomüxtəliflik ehtiyatlarının qorunması,e
+21,Qlobal istiləşmə biosferin hansı komponentinə daha çox təsir edir?,Atmosfer,Biosfer,Litosfer,Hamısına,Hidrosfer,d
+22,Hansı təbii proses biosferdə karbon qazını atmosferdən təmizləyir?,Azot dövranı,Vulkan püskürməsi,Qlobal istiləşmə,Su buxarlanması,Fotosintez,e
+23,Biosferdə heyvanların enerji mənbəyi nədir?,Günəş şüaları,Hamısı doğrudur,Minerallar,Bitkilər və digər heyvanlar,Vulkan qazları,d
+24,Hansı ekosistem biosferdə ən çox suyu saxlayır?,Dağlıq ərazilər,Kriosfera,Səhra,Tropik meşələr,Tundra,d
+25,Biosferdə torpağın itirilməsi hansı prosesə səbəb ola bilər?,Karbon qazının azalması,Doğru cavab yoxdur,Fotosintez artımı,Vulkan püskürməsi,Eroziya,e
+26,Biosferdə suyun buxarlanması hansı təbii hadisəni başlatır?,Karbon dövranı,Neft,Fotosintez,Su dövranı,Azot dövranı,d
+27,Hansı insan fəaliyyəti biosferdə ən çox çirklənməyə səbəb olur?,Plastik istehsalı,Qlobal istiləşmə,Avtomobil emissiyaları,Meşələrin məhv edilməsi,Bütün hamısı,e
+28,Biosferdəki hansı təbii resurs tükənməzdir?,Təmiz su,Kriosfera,Meşə məhsulları,Günəş enerjisi,Neft ehtiyatları,d
+29,Hansı su hövzəsi biosferdə karbonun saxlanmasında əsas rol oynayır?,Dağ çayları,Okeanlar,Tropik meşələr,Heç biri,Şirin su gölləri,b
+30,Biosferin biomüxtəlifliyini artıran ən vacib amil hansıdır?,Vulkanik fəaliyyət,Hamısı doğrudur,Səhraların genişlənməsi,İnsan fəaliyyəti,Tropik bölgələrdə iqlim sabitliyi,e
+31,Hansı təbii proses biosferdə qida istehsalına kömək edir?,Vulkan püskürməsi,Qlobal istiləşmə,Yeraltı qazların buraxılması,Fotosintez,Qasırğa,d
+32,Hansı canlı qrupu biosferin karbon dövranında ən vacib rol oynayır?,Həşəratlar,Sürünənlər,Balıqlar,Fitoplankton,Quşlar,d
+33,Biosferin biomüxtəlifliyinə təsir edən əsas amillər hansılardır?,Vulkan püskürmələri,Günəşin parlaqlığı,Fotosintez,Torpağın eroziyası,İqlim dəyişiklikləri,e
+34,Hangi ekosistem biosferdə ən az rast gəlinən biomüxtəlifliyə malikdir?,Tropik meşələr,Hamısı doğrudur,Okeanlar,Arktik tundralar,Səhra,d
+35,Azotun biosferdə əsas dövranı hansı proseslə həyata keçirilir?,Bitkilərin tənəffüsü,Kriosfera,Yağışın əmələ gəlməsi,Azot fiksasiyası,Torpağın eroziyası,d
+36,Biosferdə enerji dövranı hansı istiqamətdə hərəkət edir?,Dairəvi olaraq,Üçbucaq olaraq,Vulkanlardan birbaşa atmosferə,"Bitkilərdən heyvanlara, sonra mikroorqanizmlərə","Xətti olaraq, yüksəkdən aşağıya doğru",d
+37,Yer kürəsinin neçə faizi biosferə daxil olan canlı yaşayış yerlərindən ibarətdir?,Təxminən 1%,Təxminən 10%,Təxminən 100%,25.00%,50.00%,a
+38,Plastik tullantıların okeanlarda toplanması biosferdə hansı təsirə səbəb olur?,Balıqların sayının artması,Doğru cavab yoxdur,Torpağın eroziyasının dayanması,Biomüxtəlifliyin azalması,Okean səviyyəsinin azalması,d
+39,Hansı təbii hadisə biosferin biomüxtəlifliyinə müsbət təsir göstərə bilər?,Zəlzələ,Yanğın,Qasırğa,Yağış meşələrinin genişlənməsi,Vulkan püskürməsi,d
+40,Biosferdə karbonun saxlanıldığı əsas yer haradır?,Ayın səthi,Dağlar,Günəş şüaları,Torpaq və okeanlar,Atmosfer,d
+41,Hangi proses biosferdə suyun dövranını təmin edir?,Fotosintez,Hamısı doğrudur,Torpağın eroziyası,Buxarlanma və yağıntı,Vulkan püskürməsi,d
+42,Hansı resurs biosferdə məhduddur?,Vulkanik materiallar,Neft,Günəş enerjisi,Hava dövranı,Təmiz su,e
+43,Biosferdə həyat hansı təbəqələrdə mövcuddur?,"Yer qabığının üst təbəqəsi, atmosferin aşağı təbəqəsi və okeanlar",Yalnız torpaq sahələri,Atmosferin yuxarı təbəqələri,Dərin okeanlar,Yer qabığının dərin qatları,a
+44,İnsanların meşələri məhv etməsi biosferdə hansı təsirə səbəb olur?,Karbon qazının azalması,Vulkan püskürmələrinin artması,Oksigen istehsalının azalması,Azotun yox olması,Hamısı doğrudur,c
+45,Biosferin ən böyük ekosistemi hansıdır?,Tropik meşələr,Kriosfera,Dağlıq ərazilər,Dərin okeanlar,Səhralar,d
+46,Hangi sahə biosferin öyrənilməsi ilə birbaşa məşğuldur?,Astronomiya,Geologiya,Kimya,Fizika,Ekologiya,e
+47,Qlobal istiləşmə biosferdə hansı təsiri göstərir?,Vulkanların aktivliyini azaldır,Torpaq eroziyasını dayandırır,Doğru cavab yoxdur,Yağış miqdarını azaldır,Okean səviyyəsini artırır,e
+48,Biosferin davamlılığını təmin etmək üçün hansı addım vacibdir?,Plastik istehsalını artırmaq,Hamısı doğrudur,Enerji sərfini artırmaq,Biomüxtəlifliyi qorumaq,Meşələri yandırmaq,d
+49,İnsan fəaliyyəti biosferdə hansı problemi yaradır?,Oksigenin azalması,Neftin azalması,Çayların quruması,Plastik tullantıların artması,Dağların hündürlüyünün azalması,d
+50,Biosferdə ən çox oksigen istehsal edən ekosistem hansıdır?,Dərin okeanlar,Kriosfera,Səhra,Dağlıq ərazilər,Tropik meşələr,e
+51,Hansı təbii mühit biosferə daxil deyil?,Vulkanik lavalar,Doğru cavab yoxdur,Suyun səthindəki həyat,Yer qabığının dərin təbəqələri,Atmosfer,d
+52,Hangi təbii hadisə biosferə ən az təsir edir?,Qasırğalar,Günəşin ultrabənövşəyi şüaları,Hamısı doğrudur,Vulkan püskürməsi,Yağış,e
+53,İnsan fəaliyyəti biosferə necə təsir edir?,Təbii dövranları sürətləndirir,Doğru cavab yoxdur,Atmosferdəki oksigen səviyyəsini artırır,Ekosistemləri pozur,Vulkanik püskürmələri artırır,d
+54,Biosferdə bitkilər hansı funksiyanı yerinə yetirir?,Torpaq eroziyasını artırır,Mineralları istehsal edir,Neft istehsal edir,Vulkanların püskürməsini tənzimləyir,Karbon qazını udur və oksigen yaradır,e
+55,Hansı canlılar biosferdə azot dövranını tənzimləyir?,Balıqlar,Bitkilər,Relyef,Həşəratlar,Azot fiksasiya edən bakteriyalar,e
+56,Hansı proses atmosferdə oksigen miqdarını artırır?,Karbon dövranı,Təbii Ehtiyatsız,Torpağın eroziyası,Fotosintez,Suyun buxarlanması,d
+57,Biosferdə əsas karbon mənbəyi hansıdır?,Daş kömür yataqları,Neft,Meşələr,Okeanlar,Atmosferdəki karbon qazı,e
+58,Biosferdə enerji dövranı hansı proseslə başlayır?,Vulkan püskürməsi,Təbii şərait,Torpaq əmələ gəlməsi,Çayların axını,Fotosintez,e
+59,Hansı enerji mənbəyi biosfer üçün əsasdır?,Ayın işığı,Günəş enerjisi,Geotermal enerji,Vulkanik enerji,Xüsusi təyinat,b
+60,Biosfer hansı hissələrdən ibarətdir?,Yalnız su hövzələri,Fotokimyəvi,"Suyun dövranı, külək","Vulkanik qayalar, torpaq","Litosfer, atmosfer, hidrosfer",e
+61,Biosfer nədir?,Qaya və minerallar,Yüngül sənaye,Yer qabığının yuxarı hissəsi,Havanın hərəkəti,Canlıların yaşadığı yer kürəsinin sahəsi,e
+62,Hidrosferin həyat üçün əhəmiyyəti nədir?,Yalnız suvarma və enerji təminatı üçün vacibdir,"İqlim sisteminin tənzimlənməsi, su ehtiyatlarının davamlı dövranı, bioloji müxtəlifliyin qorunması və insan fəaliyyətinin dayanıqlılığı üçün həyati əhəmiyyət daşıyır",Atmosferin təmizlənməsi üçün vacibdir,Suyun təmizlənməsi və buxarlanması üçün istifadə olunur,Yalnız quraq bölgələrdə bitki örtüyünün artırılması üçün əhəmiyyətlidir,b
+63,Xəzər dənizi hansı statusa görə bölüşdürülür?,Dəniz kimi qəbul edildikdə yalnız 12 dəniz mili zonası bölüşdürülür,Fauna müxtəlifliyinə əsasən bölgü edilir,Yalnız duzluluğa görə bölgü edilir,Göl kimi qəbul edildikdə ətraf ölkələr arasında sektorlara bölünür və sərhəd xətləri ilə müəyyən edilir,Hər iki statusda eyni şəkildə bölüşdürülür,d
+64,Hidrosferin çirklənməsi hansı əsas problemlərə səbəb olur?,Yalnız oksigen miqdarının azalması ilə məhdudlaşır,Atmosferdə rütubətin azalması,Şirin suyun miqdarının artması,"Suyun keyfiyyətinin pozulması, bioloji müxtəlifliyin azalması, ekosistemin zədələnməsi və insan sağlamlığı üçün təhlükəli vəziyyətlərin yaranması",Su dövranının sürətlənməsi,d
+65,Dəniz səviyyəsinin qalxmasının ekoloji təsirləri hansılardır?,Yalnız sahil zonasında torpaqların su altında qalması ilə nəticələnir,"Bataqlıqların yaranması, sahil ərazilərində binaların və infrastrukturun zədələnməsi və ekosistemin pozulması",Balıq növlərinin çoxalması,Okeanlarda suyun təmizlənməsi,Ətraf mühitin çirklənməsinin azalması,b
+66,Xəzər dənizində brakonyerlik hansı problemi yaradır?,Çirklənmənin azalmasına səbəb olur,"Balıq ehtiyatlarının tükənməsi, xüsusilə nərə balıqlarının nəsli kəsilmə təhlükəsi altında qalır və ekosistemin balansı pozulur",Dənizdə oksigen səviyyəsinin azalmasına səbəb olur,Duzluluq səviyyəsinin artmasına səbəb olur,Qara kürünün istehsalını artırır,b
+67,Dünya okeanında ən zəngin bioloji müxtəliflik hansı zonada müşahidə olunur?,Qütb enliklərində,Mülayim enliklərdə müşahidə olunur,Subtropik qurşaqlarda,Materiklərin şimal sahillərində,Tropik qurşaqlarda,b
+68,Dənizlərin qovşağında oksigenlə zəngin suların yaranmasına nə səbəb olur?,Havanın hərəkətləri və buludların sıxlığı,İsti və soyuq cərəyanların birləşməsi nəticəsində,Günəşdən gələn istilik enerjisi,Vulkanik fəaliyyətin təsiri,Duzluluq fərqləri,b
+69,Dünya okeanında ən yüksək şəffaflıq harada qeydə alınmışdır?,Şimal Buzlu okeanının mərkəzində,Atlantik okeanında,Qara dənizdə,"Sakit okeanın mərkəzində, 1971-ci ildə",Hind okeanında,d
+70,Okeanların dərin hissələrində oksigen miqdarı niyə azalır?,Günəş şüaları dərinliklərə çatmadığı üçün,Suyun duzluluğu artdığı üçün,Vulkanik fəaliyyətlər nəticəsində oksigen istehlakı artdığı üçün,Dərin qatlarda fotosintez prosesi baş vermədiyi üçün və üzvi maddələrin parçalanması nəticəsində oksigenin tükənməsi baş verir,Dərinlikdəki suyun temperaturu çox yüksək olduğu üçün,d
+71,Hidrosferin ən böyük həcmi hansı forma ilə ifadə edilir?,Yeraltı qrunt suları ilə,"Maye halda olan su ilə, çünki hidrosferdəki suyun əsas hissəsi maye formada okeanlarda və dənizlərdə yerləşir",Qar və buzlaqlarla,Atmosferdə toplanmış rütubət ilə,Şirin su ehtiyatları ilə,b
+72,Xəzər dənizinin səviyyəsinin dəyişməsi hansı problemləri yaradır?,Sadəcə olaraq əhalinin köçürülməsi ilə nəticələnir,"Dəniz səviyyəsinin qalxması sahil zonalarında bataqlıqların yaranmasına, torpaqların və binaların su altında qalmasına, dəniz səviyyəsinin azalması isə balıqların çoxalması üçün əlverişli ərazilərin itirilməsinə səbəb olur",Neft hasilatının azalmasına səbəb olur,Çayların axımını gücləndirir,Ətraf mühitə təsir etmir,b
+73,Okeanlarda dərinlik üzrə temperatur necə dəyişir?,Dərinlik artdıqca temperatur artır,Dərinlik artdıqca temperatur aşağı düşür,Yalnız 1000 metr dərinliyə qədər dəyişir,Dərinlikdə temperatur qəfil artır,Dərinlik artdıqca temperatur sabit qalır,b
+74,Dünya okeanının enerjisindən istifadə əsasən hansı sahələrdə həyata keçirilir?,Külək enerjisinin istehsalında,"Qabarma-çəkilmə dalğaları, bu da ABŞ, Rusiya və Fransa kimi ölkələrdə tətbiq edilir",Yerin daxili istiliyindən istifadə üçün,Günəş panelləri quraşdırmaq üçün,Vulkanik enerjidən istifadə üçün,b
+75,Hidrosferin çirklənməsi ətraf mühitə necə təsir edir?,Çirklənmə sadəcə oksigen miqdarını azaldır,"Su mühitinə daxil olan zərərli maddələr ekosistemin balansını pozur, oksigen miqdarını azaldır və orqanizmlərin yaşamasını çətinləşdirir",Təkcə buzlaqlarda suyun azalmasına səbəb olur,Suyun duzluluğunu artırır,Çirklənmə su dövranını sürətləndirir,b
+76,Okeanlarda ən şəffaf su hansı ərazilərdə müşahidə olunur?,Mülayim qurşaqlarda,Dərin okean çökəkliklərində,Şimal enliklərində,Qütb zonalarında,Subtropik və tropik enliklərdə,e
+77,Okeanlarda suda həll olmuş oksigenin miqdarı dərinliklə necə dəyişir?,"Artır, çünki təzyiq yüksək olur","Azalır, çünki dərin qatlarda oksigen çatdırılması məhdud olur","Artır, çünki sular soyuyur","Əvvəl artır, sonra azalır","Dəyişmir, çünki hər dərinlikdə oksigen sabitdir",b
+78,Xəzər dənizində hansı balıq növləri əsasən ovlanır?,Dəniz ulduzları,Nərə balığı və ağ balıq,Karideslər,Som balıqları,Qızılbalıqlar,b
+79,Xəzər dənizinin çirklənməsinə əsas səbəb nədir?,Atmosferin təsiri ilə duzların çoxalması,Səthdə olan su buxarının azalması,Neft hasilatı və nəqli zamanı tullantıların ətraf mühitə buraxılması,Kür çayının su axını zəifləməsi,Su bitkilərinin çoxalması,c
+80,Xəzər dənizində ən yüksək su temperaturu hansı göstəriciyə çatır?,25°C,"37,2°C",20°C,15°C,30°C,b
+81,Xəzər dənizinin suyun duzluluğu hansı zonada ən yüksəkdir?,"Şimal zonasında, çünki Volqa çayı çoxlu su gətirir","Mərkəzi zonada, çünki burada suyun sirkulyasiyası zəifdir.Cənub zonasında","Şərq sahillərində, çünki Türkmənistanın yaxınlığında axarsız hövzələr mövcuddur","Kür-Araz deltası yaxınlığında, çünki çayların təsiri var","Mərkəzi zonada, çünki burada suyun sirkulyasiyası zəifdir",b
+82,Xəzər dənizi niyə göl kimi qəbul edilir?,Suyunun tərkibində minerallar az olduğuna görə,Dünya okeanı ilə əlaqəsi olmadığı üçün və yalnız ətraf ölkələrlə sərhədlənmiş böyük su hövzəsi kimi təsnif edilir,Onun duzluluğu dünya okeanından fərqli olduğu üçün,Fauna və flora zənginliyinin az olduğu üçün,Dəniz səviyyəsi sabit qalmadığına görə,b
+83,Dünya okeanının suyu ən çox hansı qazla zəngindir?,"Azot, çünki atmosferdə ən çox rast gəlinən qazdır",Karbon qazı,Hidrogen,Kükürd qazı,"Oksigen, çünki fotosintez prosesi və atmosferdən gələn qaz mübadiləsi okeanların səthi sularını oksigenlə zənginləşdirir",e
+84,Suyun sıxlığı hansı amillərdən asılıdır?,Yalnız temperaturdan,"Temperatur, təzyiq və duzluluq səviyyəsindən",Yerin cazibə qüvvəsindən,Günəşin istilik paylamasından,Təzyiqdən və minerallaşmadan,b
+85,İzobatlar nəyi ifadə edir?,"Coğrafi xətlərdir, hərarət eyni olan nöqtələri birləşdirir",Okean səthində dərinliyi eyni olan nöqtələri birləşdirən coğrafi xətlərdir və suyun relyef xüsusiyyətlərini təsvir etmək üçün istifadə edilir,Okean cərəyanlarının hərəkət istiqamətlərini göstərən xətlər,Materiklərin kontur xəritələridir,Duzluluğu eyni olan nöqtələri göstərir,b
+86,Okeanların suyunun duzluluğu necə ölçülür?,Mineral qatılıq səviyyəsi ilə,Qazların miqdarı ilə,Suyun şəffaflıq dərəcəsi ilə,Temperatur fərqləri ilə,"Promil (%o) vahidi ilə, yəni hər 1 litr suda həll olunan duz miqdarını ölçərək",e
+87,Yer səthində ən geniş yayılmış su dövranı hansıdır?,"Kiçik su dövranı, çünki okeanlarda yaranan buxarın yenidən yağıntı ilə qayıtması geniş yayılmışdır","Böyük su dövranı, çünki okean üzərində yaranan su buxarı küləklərlə quruya daşınır, orada yağıntı şəklində düşür və sonda çaylarla okeana qayıdır","Şirin su dövranı, çünki bu təbiət üçün ən vacibdir",Yalnız yeraltı suların dövranı,"Kontinental su dövranı, çünki buxar quru üzərində yaranır və yağıntı ilə yenidən quruya qayıdır",b
+88,Sakit okeanın su həcmi təxminən nə qədərdir?,"329,66 milyon kub kilometr","710,36 milyon kub kilometr, Sakit okeanı ən iri su hövzəsi","18,07 milyon kub kilometr","1340,74 milyon kub kilometr","282,65 milyon kub kilometr",b
+89,Okean səthində suyun duzluluğuna təsir edən əsas amillər hansılardır?,"Yağıntı miqdarı, buxarlanma intensivliyi, aysberqlərin əriməsi və çayların okeana axması",Çaylardan gətirilən minerallar və duzlar,Günəşdən gələn istilik və küləklər,Materiklərin yaxınlığı və relyefi,Vulkanik fəaliyyət nəticəsində yaranan qazlar,a
+90,Daxili dənizlər hansı xüsusiyyətə malikdir?,Çayların gətirdiyi sularla qidalanır,Materiklərin daxilində yerləşən və yalnız boğazlarla okeanlara bağlı olan dənizlərdir,Okeanlardan tamamilə ayrı yerləşən qapalı sular,Su duzluluğu nisbətən az olan dənizlərdir,Adalarla əhatə olunmuş dənizlərdir,b
+91,Hidrosferin əsas enerji mənbəyi nədir?,Vulkanik fəaliyyətlərdən yaranan istilik enerjisi,"Günəş şüaları, çünki Günəş hidrosferdə suyun dövranını təmin edir və enerji mənbəyi olaraq hidrosferin bütün proseslərini idarə edir",Okean cərəyanlarının yaratdığı hərəkət enerjisi,Quru sularının axın gücü,Yerin daxili istiliyi və litosferin hərəkətləri,b
+92,Xəzər dənizinin ən dərin hissəsi harada yerləşir?,"Mərkəzi hissəsində, Dərbənd çökəkliklərində","Şimal hissəsində, Volqa çökəkliklərində","Şərq sahillərində, Türkmənistan sərhədində","Cənub hissəsində, Lənkəran çökəkliyində, hansı ki, maksimum 1025 metr dərinlikdə yerləşir",Kür-Araz deltasında,d
+93,Dəniz suyunda oksigenin miqdarı nədən asılıdır?,Çaylardan gətirilən süxur miqdarından,Günəş şüalarının təsirindən,Vulkanik fəaliyyətdən,Duzluluq səviyyəsindən,Temperaturdan və okean sularının qarışma dərinliyindən,e
+94,Hidrosferin Yerin landşaftına təsiri necə baş verir?,Hidrosfer yalnız çaylarla relyefi dəyişir,"Suyun böyük dövranı nəticəsində, atmosfer yağıntıları torpaqda mineral maddələri həll edir",Suyun dövranı relyefə heç bir təsir göstərmir,İsti bulaqlar relyef dəyişikliklərini idarə edir,Yalnız yeraltı sular vasitəsilə relyef formalaşdırılır,b
+95,Dünya okeanının əsas morfoloji xüsusiyyətləri arasında ən dərin çökəklik hansıdır?,Bellinshauzen çökəkliyi,Mariana çökəkliyi,Puerto-Riko çökəkliyi,Qrenlandiya dənizi çökəkliyi,Yava yarğanı,b
+96,Okeanların ən yüksək səth temperaturu harada müşahidə olunur?,Qütb enliklərində,5°-10° şimal enlikləri arasında olur,20°-30° şimal enlikləri arasında,Mülayim enliklərdə,Tropik enliklərdə,b
+97,Dünya okeanında ən yüksək duzluluğa malik olan dəniz hansıdır?,Qara dəniz,Qırmızı dənizdir,Sarqass dənizi,Ölü dəniz,Aralıq dənizi,b
+98,Hidrosferdə suların yenilənmə müddəti hansı ərazilərdə ən uzun çəkir?,Atmosferdə rütubət halında olan suların yenilənməsi təxminən 9 gün çəkir,"Okeanlarda, təxminən 3.200 il ərzində tamamilə yenilənir","Qar örtüklərində, 2 ildən 6 ilə qədərdir","Yeraltı dərin qrunt sularında, hansı ki, təxminən 10.000 il ərzində tamamilə yenilənir və bu müddət digər mühitlərdən xeyli uzundur","Çay sularında, təxminən 19 gün ərzində",d
+99,Okeanlarda suyun orta dərinliyi nə qədərdir?,3976 metr,8742 metr,1225 metr,3597 metr,3711 metrdir,e
+100,Okean sularının ən çox yayılan kimyəvi elementi hansıdır?,Kalsium duzları,Natrium-xlordur,Karbon qazı,Hidrogen peroksid,Maqnezium,b
+101,Hidrosferdə suyun kiçik dövranının əsas xüsusiyyəti nədir?,Şirin suyun yalnız quru ərazilərdə buxarlanması və yağıntıya çevrilməsi ilə tamamlanması,Okean və dənizlər üzərində buxarlanan suyun atmosferdə kondensasiya olunaraq yenidən həmin su hövzələrinə yağış şəklində qayıtması və bu dövranın çox sadə bir proses olması,Çay və göllər üzərində yaranan su dövranı,Suyun yalnız buxarlanma halında hərəkət etməsi,Quraq bölgələrdə atmosfer buxarının artması,b
+102,Suyun kiçik dövranı nəyi ifadə edir?,Çaylardan buxarlanan suyun göllərə qayıtması prosesidir,"Okean üzərində buxarlanmış suyun yenidən yağıntı şəklində okeana qayıtması, bu zaman suyun tərkibi dəyişmir və yalnız dövranı təmin edir",Quru üzərində buxarlanmış suyun atmosferə qayıtması,Atmosferdə su molekullarının hərəkətini,Yalnız şirin su dövranını,b
+103,Aralıq dənizi hansı qrupa aiddir?,"Daxili dənizlərdir, çünki materiklərin daxilinə çox irəliləmiş və okeanla yalnız boğaz vasitəsilə əlaqəlidir",Adalararası dənizlərdir,Kənar dənizlərdir,Şelf dənizləridir,Qapalı dənizlərdir,a
+104,Dünya okeanı neçə əsas hissəyə bölünür?,"4 əsas hissəyə, yəni Sakit, Atlantik, Hind və Şimal Buzlu okeanlara",6 əsas hissəyə,3 əsas hissəyə,5 əsas hissəyə,2 əsas hissəyə,a
+105,Sakit okeanın ən dərin nöqtəsi haradır?,Puerto-Riko çökəkliyi,Bellinshauzen dibi,Qrenlandiya dənizi çökəkliyi,"Mariana çökəkliyi, hansı ki, 11.022 metr dərinliyə çatır və bu, dünya okeanlarının ən dərin nöqtəsi hesab olunur",Yava yarğanı,d
+106,Hidrosferdə suyun yaranması ilə bağlı ən çox qəbul olunan nəzəriyyə hansıdır?,Atmosferdə oksigen və hidrogenin reaksiyaya girməsi ilə suyun yaranması,Səth sularının buxarlanaraq yenidən yerə qayıtması prosesi,Çay və göllərin birləşməsi ilə yaranan təbəqə,Vulkanik fəaliyyətlər zamanı Yerin dərin qatlarından qalxan su buxarının atmosferdə soyuyaraq maye halına keçməsi və uzunmüddətli yağışlar nəticəsində toplanması,Meteoritlərlə kosmosdan gətirilən su ehtiyatlarının birləşməsi,d
+107,Dünya okeanındakı suyun ümumi həcmi nə qədərdir?,1 milyard kub kilometr,"1,4 milyard kub kilometr",2 milyard kub kilometr,"1,7 milyard kub kilometr","0,7 milyard kub kilometr",b
+108,Hidrosferin təsərrüfat sistemində əsas funksiyalarından biri nədir?,Torpağın rütubətini artırmaq,Təbiətdə yalnız şirin su dövranını təmin etmək,Atmosferin rütubət səviyyəsini qorumaq,"Günəşdən gələn istiliyin əsas hissəsini udmaq, onu saxlayaraq yerin digər sahələrinə paylamaq və qlobal iqlim sisteminə təsir etmək",Vulkanik fəaliyyətlərə təsir etmək,d
+109,Okean suyunun orta duzluluğu nə qədərdir?,"40 promildir, əsasən tropik enliklərdə","20 promildir, əsasən buzlaq ərazilərdə","30 promildir, bu da suyun minerallaşmasını göstərən vacib göstəricidir","25 promildir, lakin bəzi dənizlərdə bu göstərici artmış ola bilər","35 promildir, yəni hər 1 kq okean suyunda təxminən 35 qram həll olunmuş duz olur və bu, planetimizin okean sularının sabit kimyəvi tərkibinin göstəricisidir",e
+110,Hidrosferin ən böyük su ehtiyatı harada toplanmışdır?,"Yeraltı sularda cəmlənmişdir, çünki bu sular atmosferdən daha sabit bir tərkibə malikdir","Dünya okeanında, çünki planetdə mövcud olan bütün suyun 96,5%-i burada yerləşir",Atmosferdə toplanmış buludlarda,"Quru sularında, yəni çay və göllərdə","Qar və buzlaqlarda, çünki burada şirin su ehtiyatları toplanır",b
+111,Hidrosfer nədir?,Suyun buxar halında olduğu yer qatıdır,Yalnız şirin suları əhatə edən təbəqə,"Yerin su təbəqəsi olub, okeanlar, dənizlər, göllər, çaylar və buzlaqları əhatə edən təbəqəsidir, həmçinin yeraltı və atmosfer sularını da özündə birləşdirir","Yerin su, hava və torpaq təbəqələrinin birgə adı.",Atmosferdə yerləşən suların yığılmış halıdır.,c
+112,Ekstensiv istifadə üsulu nə ilə xarakterizə olunur?,Torpaq resurslarının artırılması,İnsan əməyi olmadan istifadə,Təbii resurslardan səmərəli istifadə,Təbii resursların qeyri-səmərəli istifadəsi,Texnologiyanın tətbiqi ilə istifadə,d
+113,Təbiətə olan antropogen yükün azalması necə təmin edilir?,Çirkləndirici mənbələrin artırılması ilə,Təbii ehtiyatların artırılması ilə,Torpağın maksimum istismarı ilə,Səmərəsiz istismar metodlarından istifadə ilə,,b
+114,Təbii sərvətlərin səmərəli istifadəsinin əsas məqsədi nədir?,Yeni təbii resursların tədqiqi,Tullantıların həcmini artırmaq,İnsan sağlamlığını qorumaq və perspektiv inkişafı təmin etmək,Faydalı qazıntıların çıxarılması üçün sərfiyyat artırmaq,,c
+115,Filizçay yatağının düzgün istismarı ilə respublika ehtiyaclarını neçə ilə ödəmək mümkündür?,50 il,75 il,150 il,100 il,,d
+116,Səhralaşma hansı antropogen faktorlar nəticəsində sürətlənir?,Torpağın həddindən artıq istismarı,İqlim dəyişiklikləri,Hava çirklənməsi,Təbii fəlakətlər,,a
+117,Səmərəsiz istifadə nəticəsində nə baş verir?,Faydalı qazıntılar artır,Təbii resurslar bərpa olunur,İnsan sağlamlığı qorunur,Ətraf mühitə ziyan dəyir,,d
+118,Təbii resurslardan səmərəli istifadə nəyi təmin edir?,Ekosistemlərə ekoloji yükün azalmasını,Bioloji növlərin məhvini,Torpağın çirklənməsini,Daha çox tullantıların yaranmasını,,a
+119,Azərbaycanda səhralaşma prosesinin intensiv inkişaf etdiyi ərazi hansı regionda yerləşir?,Şərq regionu,Qərb regionu,Şimal regionu,Cənubi Qafqaz,,d
+120,Filizçay polimetal yatağı hansı vəziyyətdə istismar edilir?,Ekoloji standartlara uyğun,Tamamilə müasir üsullarla,İstismar edilmir,Köhnə texnologiyalarla,,d
+121,Azərbaycanın ən böyük ekoloji problemlərindən biri hansıdır?,Tullantıların yığılması,Meşə qırılması,Çayların quruması,Torpağın səhralaşması,,d
+122,İnsan mühitə daha çox hansı fəaliyyət növü zamanı təsir edir?,Turizm fəaliyyəti,Təsərrüfat fəaliyyəti,İstirahət zamanı,Elm-tədqiqat işləri,,b
+123,XIX əsrdə hansı səbəbdən təbii sərvətlər geniş şəkildə istismar edilirdi?,Yeni torpaqların kəşfi,Feodalizmin güclənməsi,Kapitalizmin inkişafı,Dəniz ticarətinin artması,İqlim dəyişiklikləri,c
+124,Çar Aleksey Mixayıloviçin dövründə ovla bağlı hansı tədbirlər görülmüşdür?,Torpaq eroziyasının qarşısının alınması,Çay suyunun təmizlənməsi,Xəz-dərili heyvanların ovlanması qadağan edilmişdir,Balıq ovunun tamamilə dayandırılması,Ov müddəti və qadağan olunan zonalar müəyyən edilmişdir,e
+125,1872-ci ildə yaradılan ilk milli parkın adı nədir?,Belovejskaya,Xarkov Təbiət Parkı,Moskva Təbiət Qoruğu,Lelo-Uston,Yellowstone,d
+126,Rus çarı I Pyotr hansı sahədə meşələrin mühafizəsi barədə fərman vermişdir?,Ovun tamamilə qadağan edilməsi,Çay suyunun təmizlənməsi,Torpağın qorunması,Palıd meşələrinin salınması,Moskva və Sank-Peterburq ətrafında botanika bağlarının salınması,d
+127,Rusiyada təbiəti mühafizəyə dair ilk yazılı fərmanlar hansı dövrlərdə verilmişdir?,XIII əsr,XX əsr,XVIII əsr,XI-XII əsrlər,XIV əsr,d
+128,1864-cü ildə “İnsan və təbiət” adlı kitabın müəllifi kimdir?,K. Linney,Saradaş,Jan Jak Russo,Corc Marş,Ç. Darvin,d
+129,Feodalizmdə təbiətin mühafizəsi hansı əsas məqsədə xidmət edirdi?,Meşələrin qorunması,Torpaqların becərilməsi,Heyvanların nəsillərinin qorunması,Yeni ərazilərin işğalı,Tülkü,c
+130,İngiltərədə eramızın əvvəlində ovlamaq qadağan edilən heyvanlardan biri hansıdır?,Pələng,Tülkü,Ayı,Bizon,Maral,e
+131,Qədim Hindistanda Aşokan dövründə hansı tədbirlər görülmüşdür?,Balıqların ovlanması qadağan edilmişdir,Meşələrin yandırılması,Botanika bağlarının salınması,Gənc heyvanların və quşların mühafizəsi,Torpaqların becərilməsi,d
+132,Təbiəti mühafizə hansı dövrdən inkişaf etdirilmişdir?,XXI əsr,XX əsr,Orta əsrlər,Qədim dövrlər,Yeni dövr,d
+133,Kartoqrafik metodun təhlükəli hadisələrlə bağlı hansı rolu var?,Normativ sənədlərin hazırlanması,Təbii mühafizə tədbirlərinin tətbiqi,Regionların iqtisadi inkişafı,Hüquqi tənzimləmə,Ekoloji tarazlığın təmin edilməsi,b
+134,Kosmik tədqiqatlar metodu vasitəsilə hansı proseslər izlənir?,İnsan fəaliyyətinin ekoloji təsiri,Ətraf mühitdə tullantılar,Yeraltı su ehtiyatları,Təbii resursların təkrar istifadəsi,Qlobal təbii proseslər və kosmik hadisələr,e
+135,Dialektik metodun əsas xüsusiyyəti nədir?,Tarixi məlumatlardan istifadə,Normativlərə uyğunluq,Ekoloji bərpa,Vahid təcrübə ilə nəzəriyyənin birləşməsi,Təbii resursların istifadəsi,d
+136,Tarixi metodun ekologiya sahəsində əhəmiyyəti nədən ibarətdir?,Resursların iqtisadi qiymətləndirilməsi,Hüquqi tənzimləmə,Ekoloji xəritələrin hazırlanması,Keçmiş və gələcək inkişaf üçün proqnozların qurulması,Təbii fəlakətlərin qarşısının alınması,d
+137,İqtisadi-riyazi modelləşdirmənin əsas məqsədi nədir?,Yer səthinin öyrənilməsi,Normativ sənədlərin hazırlanması,Təbii mühitin çirklənməsindən yaranan iqtisadi zərərlərin qiymətləndirilməsi,Sosial problemlərin həlli,Təhsil resurslarının təkmilləşdirilməsi,c
+138,Normativ metod hansı əsas sənədlər üzərində qurulur?,Ekoloji xəritələr,"TİH, KVH və hüquqi normativlər",Təbiət qanunları,İqtisadi hesabatlar,Statistika məlumatları,b
+139,Sistemli yanaşma hansı sahədə mürəkkəb proseslərin tətbigini nəzərdə tutur?,Normativ tənzimləmə,Maliyyə planlaşdırma,Sosial problemlər,Ekoloji bərpa və mühafizə,Tarixi araşdırma,d
+140,Kosmik tədqiqatlar metodu əsasən nəyin izlənməsi üçün tətbiq edilir?,Ekoloji tarazlıq,Məhsul istehsalı,İnsan fəaliyyəti,Yer kürəsinin kosmik şəraitdə monitorinqi,Təbii resursların istifadəsi,d
+141,Hansı metod təbii resursların iqtisadi qiymətləndirilməsi və regionlarda təbii hadisələrin proqnozlaşdırılmasında istifadə olunur?,Tarixi metod,Normativ metod,Sistemli yanaşma,Kartoqrafik metod,Kosmik tədqiqatlar metodu,d
+142,Ətraf mühitin iqtisadiyyatı fənni hansı metoddan istifadə edərək ekologiya və iqtisadi proseslərin tədqiqini vahid müstəvidə öyrənməyi təklif edir?,Tarixi metod,Sistemli yanaşma,Kartoqrafik metod,Normativ metod,Dialektik metod,e
+143,Ətraf mühitin iqtisadiyyatında dövlət tənzimləmə sisteminin əsas məqsədi nədir?,Təbii ehtiyatların ixracının artırılması,Şəhər infrastrukturunun genişləndirilməsi,Maliyyə bazarlarının genişləndirilməsi,Texnogen tullantıların təşviq edilməs,Ekoloji siyasətin gücləndirilməsi,e
+144,Ətraf mühitin iqtisadiyyatında təbii resursların balanslaşdırılması necə təmin edilir?,Yalnız istehsalın artırılması ilə,Ekoloji maarifləndirmə ilə,Sənaye tullantılarının artırılması ilə,Təbiətdən istifadənin idarə edilməsi ilə,Texnologiyanın ekoloji bazasının genişləndirilməsi ilə,d
+145,Təbii mühitdən istifadənin hüquqi müdafiəsinə hansı tədbir daxildir?,Ekoloji vergi sisteminin tətbiqi,İnfrastruktur layihələrinin inkişafı,Bazar iqtisadiyyatının tənzimlənməsi,Təbii ehtiyatların hüquqi qorunması,Resurs qoruyucu strategiyanın hazırlanması,d
+146,Ətraf mühitin iqtisadiyyatı fənninin planlaşdırma sisteminə aid olan nədir?,İqtisadi texnologiyaların təkmilləşdirilməsi,Maliyyə bazarlarının tənzimlənməsi,Ekoloji maarifləndirmə proqramları,Təbii ehtiyatların bölüşdürülməsi,Monitorinq və nəzarət sistemləri,e
+147,Ətraf mühitin iqtisadiyyatında hansı funksiyalar yerinə yetirilir?,Təhsil siyasətinin hazırlanması,Şəhər planlamasının genişləndirilməsi,İdxal-ixrac balansının təyin edilməsi,Ekoloji maraqların razılaşdırılması,İstehsal sistemlərinin artırılması,d
+148,Ekoloji-iqtisadi sistem nəyi ifadə edir?,Təbii ehtiyatların yox edilməsini,İnsan fəaliyyəti ilə təbiətin əlaqəsinin kəsilməsini,Təbii mühitin məhv edilməsini,Təbiət və iqtisadiyyatın qarşılıqlı əlaqəsini,Təbii ehtiyatların yox edilməsini,d
+149,Ətraf mühitin iqtisadiyyatında təbiətdən istifadənin səmərəliliyi üçün hansı yol vacibdir?,Hüquqi müdafiənin zəiflədilməsi,Təbii ehtiyatların ixracının artırılması,Təbiətin məhv edilməsi,Dayanıqlı ekoloji-iqtisadi inkişaf yollarının müəyyən edilməsi,İstehsalın azalması,d
+150,Ətraf mühitin iqtisadiyyatında əsas diqqət nəyə yönəldilir?,Təbii resursların məhv edilməsinə,Şəhər infrastrukturuna,Maliyyə bazarına,Ekoloji-iqtisadi problemlərin həllinə,Texnologiyanın inkişafına,d
+151,Ətraf mühitin iqtisadiyyatı hansı elmlərlə əlaqədardır?,Biologiya və coğrafiya,İnformatika və mühəndislik,Riyaziyyat və fizika,İqtisadiyyat və tarix,Astronomiya və kimya,a
+152,Ətraf mühitin iqtisadiyyatı fənninin məqsədi nədir?,Əhalinin sağlamlıq səviyyəsini azaltmaq,Regional inkişafı dayandırmaq,Resurslardan istifadənin effektivliyini artırmaq,Texnogen tullantıları artırmaq,Təbiəti tənzimləmə mexanizmini ləğv etmək,c
+153,Hansı metod ətraf mühitin iqtisadi modelləşdirilməsində istifadə olunur?,Tarixi metod,Kartoqrafik metod,Normativ metod,İqtisadi-riyazi modelləşdirmə,Sistemli yanaşma,d
+154,Ətraf mühitin iqtisadiyyatının yaranma dövrü hansı ilə bağlıdır?,XX əsrin əvvəlləri,XXI əsr,XVIII əsr,XX əsrin ikinci yarısı,XIX əsr,d
+155,Təbii resursların istifadəsi və istehlakı hansı yanaşma ilə öyrənilir?,Dialektik metod,Tarixi metod,Kartoqrafik metod,Normativ metod,Sistemli yanaşma,e
+156,Kartoqrafik metod əsasən hansı məqsədlə istifadə olunur?,Tarixi inkişafı izləmək üçün,Normativlərin tərtib edilməsi üçün,Təbii resursların iqtisadi təhlili üçün,Sənaye istehsalını artırmaq üçün,Kosmik şəkillərlə ətraf mühiti müşahidə etmək üçün,e
+157,Normativ metod nəyi tədqiq edir?,Əhali artımını,Resursların idarə edilməsini,Ekoloji və iqtisadi proseslərin tarixini,Kosmik dəyişiklikləri,Təbii mühitin normativlərini,e
+158,Sistemli yanaşmanın məqsədi nədir?,Tarixi faktların araşdırılması,Təbiətin qanunlarının tətbiqi,Resursların iqtisadi təhlili,Sosial proseslərin öyrənilməsi,Təbii mühitin bərpası və mühafizəsi,e
+159,Ətraf mühitin iqtisadiyyatının əsas tədqiqat obyektlərindən biri hansıdır?,Enerji sektorunun inkişafı,Şəhərsalma prosesləri,İqtisadi proseslər,Sənaye istehsalı,Təbiət resurslarının qorunması və istifadəsi,e
+160,Tarixi metodun əsas xüsusiyyəti nədir?,Resursların iqtisadi qiymətləndirilməsi,Ekoloji normativlərin yaradılması,Kosmik tədqiqatların aparılması,Gələcək inkişafın proqnozlaşdırılması,Təbii mühitin qorunması,d
+161,Ətraf mühitin iqtisadiyyatında hansı metod təbiət və iqtisadi proseslərin birgə öyrənilməsini təklif edir?,Normativ metod,Kartoqrafik metod,Tarixi metod,Dialektik metod,Sistemli yanaşma,d
+162,Ətraf mühitin iqtisadiyyatının yaranmasının əsas səbəbləri nələrdir?,Təhsil səviyyəsinin yüksəlməsi,İnsan resurslarının artması,Sənayeləşmənin artması,Təbii resursların qorunması və bərpası,Şəhərləşmə proseslərinin genişlənməsi,d
+163,Torpağın əmələ gəlməsi üçün hansı amil vacib deyil?,İqlim,Ana süxur,Zaman,Orqanizmlər,Vulkan püskürməsi,e
+164,Torpaqda suyun tutulmasını təmin edən xüsusiyyət hansıdır?,Sıxlıq,Rütubət tutumu,Sərtlik,Kimyəvi tərkib,Temperatur,b
+165,Hansı süxur növü kimyəvi reaksiyalarla yaranır?,Maqmatik,Fiziki çökmə süxurları,Vulkanik,Kimyəvi çökmə süxurları,Metamorfik,d
+166,Yer qabığının ən xarici qatında hansı süxurlar daha çoxdur?,Maqmatik süxurlar,Çöküntü süxurlar,Vulkanik süxurlar,İntruziv süxurlar,Metamorfik süxurlar,b
+167,Torpaq hansı təbəqənin üst hissəsini təşkil edir?,Biosfer,Litosfer,Hidrosfer,Astenosfer,Atmosfer,b
+168,Hansı element torpaqda daha çox olur?,Gümüş,Yod,Qızıl,Mis,Oksigen,e
+169,Torpaqda üzvi maddə əsasən hansı qatdadır?,C qatı,E qatı,D qatı,A qatı,B qatı,d
+170,Yer qabığında hansı proses nəticəsində qırıntı süxurlar yaranır?,Maqmanın soyuması,Aşınma və daşınma,Yüksək təzyiq,Yeraltı təzyiq,Vulkan püskürməsi,b
+171,Yer qabığının ən sıx qatı hansıdır?,Pedosfer,Aşınma qabığı,Bazalt qatı,Çökmə qat,Qranit qatı,c
+172,Nüvə hansı formada olur?,Yalnız maye,Maye və bərk,Yalnız bərk,Ərimə halında,Yalnız qaz,b
+173,Yerin daxili təbəqələri hansılardır?,"Atmosfer, biosfer, hidrosfer","Nüvə, mantiya, qabıq","Torpaq, su, hava","Okean, qitə, dağ","Litosfer, pedosfer, kriosfer",b
+174,Torpaq hansı formada qaz mübadiləsində iştirak edir?,Dəniz suyu ilə qarışaraq,Yeraltı su axınları ilə,Yerin nüvəsi ilə təmasda olaraq,Atmosferlə qaz mübadiləsi ilə,Vulkan püskürmələri ilə,d
+175,Hansı süxur üzvi mənşəlidir?,Andezit,Qranit,Gips,Bazalt,Torf,e
+176,Metamorfik süxur nümunəsi hansıdır?,Torf,Kvarsit,Bazalt,Qranit,Gips,b
+177,Yer qabığının ən yuxarı təbəqəsi necə adlanır?,Yuxarı nüvə,Mantiya,Atmosfer,Pedosfer,Litosfer,e
+178,Bazalt süxuru hansı rəngdə olur?,Sarı,Yaşıl,Tünd-boz və ya qara,Qırmızı,Ağ,c
+179,Torpaqəmələgəlmədə hansı amil mikroiqlimə təsir edir?,Ana süxur,Relyef,Qurunt suları,Zaman,İqlim,b
+180,Yer qabığında ən çox rast gəlinən süxur növü hansıdır?,Maqmatik süxurlar,Çöküntü süxurlar,Vulkanik süxurlar,Üzvi süxurlar,Metamorfik süxurlar,b
+181,Torpağın humusla ən zəngin qatı necə adlanır?,C qatı,B qatı,D qatı,E qatı,A qatı,e
+182,Yer qabığında geotermik pillə nədir?,Yer qabığında təzyiqin artma sürəti,Vulkanik fəaliyyətin pilləsi,Temperaturun hər 1°C artdığı dərinlik,Yer qabığının qalınlıq ölçüsü,Süxurların sıxlıq pilləsi,c
+183,Yer qabığının okeanlarda qalınlığı nə qədərdir?,50-60 km,15-20 km,25-30 km,35-40 km,5-10 km,e
+184,Metamorfizasiya nədir?,Süxurların səthdə soyuması prosesi,Süxurların eroziyası,Yeraltı qazların çıxması,Süxurların yüksək təzyiq və temperaturda dəyişməsi,Torpağın yaranma prosesi,d
+185,Torpağın mexaniki tərkibində ən kiçik hissəciklər hansılardır?,Qum,Gil,Qranit,Torf,Çınqıl,b
+186,Torpaq öz-özünü necə təmizləyir?,Bioloji proseslərlə,Kimyəvi eroziya ilə,Günəş şüaları ilə,Vulkan püskürməsi ilə,Fiziki parçalanma ilə,a
+187,Yerin daxili nüvəsinin radiusu nə qədərdir?,2900 km,500 km,1000 km,1300 km,2000 km,d
+188,Çöküntü süxurlar necə əmələ gəlir?,Maqmanın soyuması nəticəsində,Yüksək təzyiq və temperatur altında dəyişmə ilə,Vulkan püskürmələri nəticəsində,Yeraltı qazların təsiri ilə,Süxurların parçalanaraq daşınması və çökməsi ilə,e
+189,Torpaq əmələ gətirən amillərdən biri deyil:,Relyef,Günəş sistemi,İqlim,Orqanizmlər,Ana süxur,b
+190,Yer qabığının ən dərin qatının adı nədir?,Üzvi qat,Çökmə qat,Qranit qat,Bazalt qat,Magmatik qat,d
+191,Metamorfik süxurların nümunəsi hansıdır?,Qranit,Gips,Torf,Mərmər,Bazalt,d
+192,Bazalt hansı növ süxurdur?,Metamorfik,Effuziv maqmatik,Çökmə,Üzvi mənşəli,İntruziv maqmatik,b
+193,Torpağın üst münbit qatına nə deyilir?,Mantiyanın səthi,Ana süxur,Aşınma qabığı,Pedosfer,Geosfer,d
+194,Geotermik qradient nədir?,Yer qabığının seysmik fəallığı,Yer qabığının sıxlığı,Yer qabığının qalınlığı,Süxurların sərtlik dərəcəsi,Temperaturun dərinliklə artma sürəti,e
+195,Torpaq hansı iki əsas komponentdən ibarətdir?,Qum və gil,Mineral və üzvi hissələr,Hava və su,Daş və çınqıl,Maqmatik və metamorfik süxurlar,b
+196,Litosferin qalınlığı harada daha çoxdur?,Okeanlarda,Dağlıq ərazilərdə,Platformalarda,Dəniz dibi vadilərində,Vulkanik ərazilərdə,b
+197,Yer qabığının quruluşunda hansı qatlardan biri okean qabığında yoxdur?,Maqmatik qatı,Metamorfik qatı,Çökmə süxur qatı,Bazalt qatı,Qranit qatı,e
+198,Maqmatik süxurlar neçə əsas qrupa bölünür?,5,6,3,4,2,e
+199,Yer qabığında hər 100 metrdə temperatur nə qədər artır?,1°C,3°C,4°C,5°C,2°C,b
+200,Torpaqəmələgətirən əsas amillərdən biri hansıdır?,Okean cərəyanları,Yerin daxili nüvəsi,Günəşin cazibə qüvvəsi,Ana süxur,Yerin maqnit sahəsi,d
+201,Aşınma nədir?,Maqmanın yer səthinə püskürməsi,Süxurların parçalanması prosesi,Süxurların kristallaşması,Yer qabığının çökməsi,Süxurların əriməsi prosesi,b
+202,Yer qabığının orta sıxlığı nə qədərdir?,2.5 q/sm³,2.8 q/sm³,3.5 q/sm³,5.5 q/sm³,3.0 q/sm³,b
+203,Metamorfik süxurlar necə yaranır?,Maqmanın soyuması nəticəsində,Küləyin təsiri ilə aşınma nəticəsində,Kimyəvi maddələrin su ilə çökməsi ilə,Süxurların yüksək təzyiq və temperatur altında dəyişməsi ilə,Canlıların qalıqlarının çürüməsi ilə,d
+204,Litosferin alt sərhədini hansı səth müəyyən edir?,Konrad sərhədi,Yer mantiyası,Yer nüvəsi,Moxoroviçiç sərhədi,Astenosfer,d
+205,Maqmatik süxurların mənşəyi nədir?,Çökmə materialların toplanması,Maqmanın soyuması və bərkiməsi,Kimyəvi reaksiyalar nəticəsində yaranma,Üzvi maddələrin çürüməsi,Aşınma nəticəsində əmələ gəlmə,b
+206,Materik tipli Yer qabığında hansı qat yoxdur?,Heç biri,Çökmə süxur qatı,Qranit qatı,Dəmir qatı,Bazalt qatı,d
+207,Yer qabığının tərkibində ən çox yayılan kimyəvi element hansıdır?,Kalsium,Alüminium,Oksigen,Silisium,Dəmir,c
+208,Yerin nüvəsinin xarici (kənar) qatının temperaturu təxminən neçə dərəcədir?,2000°C,6000°C,4500°C,5000°C,3500°C,b
+209,Okean tipli Yer qabığı neçə qatdan ibarətdir?,1 qat,5 qat,4 qat,2 qat,3 qat,d
+210,Yer qabığının materiklərdə qalınlığı nə qədərdir?,50-100 km,100-200 km,5-15 km,10-20 km,15-90 km,e
+211,Yerin mantiyasının aşağı sərhədi harada yerləşir?,1000 km dərinlikdə,2900 km dərinlikdə,2000 km dərinlikdə,2500 km dərinlikdə,1500 km dərinlikdə,b
+212,Litosfer nədir?,Atmosferin bir qatı,Yerin nüvəsi,Yerin daxili maye hissəsi,Yerin üst bərk qatı və mantiyanın yuxarı hissəsi,Hidrosferin bir hissəsi,d
+213,Azərbaycanın yüksək dağlıq ərazilərində hansı təsərrüfat mümkündür?,Sənaye təsərrüfatı,Suvarma əsaslı əkinçilik,Dağlıq iqlimə uyğun kənd təsərrüfatı.,Taxıl əkinçiliyi,Subtropik meyvəçilik,c
+214,Aqroiqlim ehtiyatlarının kənd təsərrüfatına təsiri nədir?,İqlim dəyişikliklərini sabit saxlayır,Yağıntı miqdarını sabit saxlayır,Günəş radiasiyasını azaldır,Effektiv temperaturdan asılı olaraq bitki növlərinin inkişafını təmin edir.,Su buxarını artırır,d
+215,Azərbaycanın iqlimində sel və daşqın hadisələrinin təsiri nədir?,CO2 səviyyəsini sabit saxlayır,Karbon qazını azaldır,Torpağı zənginləşdirir,Təbii ehtiyatları artırır,Yamaclarda yarğanların əmələ gəlməsinə səbəb olur.,e
+216,Azərbaycanın Abşeron yarımadasında küləklər nə ilə xarakterizə olunur?,Yağıntı miqdarını artırır,Həmişə isti və quru olur,Yalnız yazda əsir,İlin 300 günü müşahidə olunur.,Günəş radiasiyasını azaldır,d
+217,Günəş radiasiyasının kənd təsərrüfatında əsas rolu nədir?,Temperatur balansını sabit saxlayır,Su buxarını azaldır,Külək enerjisini sabit saxlayır,Fotosintez prosesini təmin edir.,CO2 səviyyəsini artırır,d
+218,Azərbaycanın kənd təsərrüfatı üçün ən əlverişli əraziləri hansılardır?,Xəzər sahilləri,Abşeron və Qobustan,Böyük Qafqazın yüksək dağları,Kür-Araz ovalığı.,Talış dağlarının cənubu,d
+219,Quraqlıq zamanı kənd təsərrüfatına hansı təsirlər olur?,Karbon qazının miqdarı artır,CO2 səviyyəsi azalır,Məhsuldarlıq artır,Rütubət miqdarı artır,Torpaqdakı rütubət miqdarı azalır.,e
+220,Dəmyə əkinçiliyin əsas üstünlüyü nədir?,Taxıl istehsalını artırır,Havanın nisbi rütubətini artırır,CO2 səviyyəsini sabit saxlayır,Suvarma ehtiyacını aradan qaldırır.,Su buxarını azaldır,d
+221,Azərbaycanda ən çox müşahidə olunan iqlim tipi hansıdır?,Tropik iqlim,Yağışlı mülayim iqlim,Subtropik mülayim iqlim.,Quru səhra iqlimi,Arktik iqlim,c
+222,Talış dağlarının cənubunda kənd təsərrüfatına hansı şərait uyğundur?,Külək enerjisinin istifadəsi,Qışda buğda əkinləri,İsti və quru iqlim,Subtropik bitkiçilik üçün yüksək rütubət.,Dağlıq relyefdə soyuq təsərrüfat,d
+223,Aqroiqlim ehtiyatlarının təsnifatı nə əsasda aparılır?,Rütubət səviyyəsi,Külək sürəti,CO2 səviyyəsi,Effektiv temperatur göstəriciləri.,Günəş radiasiyasının intensivliyi,d
+224,Azərbaycanın iqlimində ən böyük təhlükə yaradan təbii hadisə hansıdır?,Yüksək temperatur,Çoxlu yağıntılar,Güclü küləklər,Sel və daşqınlar.,Karbon qazı səviyyəsinin artımı,d
+225,Ekoloji nöqteyi-nəzərdən əlverişli iqlim nə deməkdir?,Rütubət balansının pozulması,Yağıntı miqdarının sabit qalması,Temperaturun və rütubətin optimal nisbəti.,Havanın yüksək təzyiqi,Günəş radiasiyasının azalması,c
+226,Azərbaycanın hansı əraziləri kurort-rekreasiya üçün əlverişlidir?,Kür-Araz ovalığı,Talış dağları,Kiçik Qafqaz dağlıq əraziləri,Böyük Qafqaz və Xəzər sahilləri.,Qobustan və Abşeron,d
+227,Təbii rekreasiya resurslarına hansı nümunələr daxildir?,Sənaye müəssisələri,Kənd təsərrüfatı məhsulları,Tarixi abidələr,Neft-qaz yataqları,Günəşli günlərin çoxluğu və gözəl landşaftlar.,e
+228,Atmosferin maddi nemətlərin formalaşmasındakı rolu nədən ibarətdir?,Hidrogenin miqdarını sabit saxlamaqla,CO2 miqdarını artırmaqla,Oksigen və azotun sabit nisbəti ilə.,Atmosfer təzyiqini artırmaqla,Havanın ionlaşmasını təmin etməklə,c
+229,Mezosferdə temperatur necə dəyişir?,Sabit qalır,Daim artır,Daim azalır,"Əvvəl azalır, sonra artır.","Əvvəl artır, sonra azalır",d
+230,Troposferdə havanın əsas hərəkət forması hansıdır?,Aerozol əmələ gəlməsi,İonlaşma,Konveksiya.,Sublimasiya,Diffuziya,c
+231,Atmosferdə su buxarının miqdarı nəyə bağlıdır?,Külək sürəti,Yüksəklik və temperatur.,Günəş radiasiyasının intensivliyi,Ozon qatının qalınlığı,CO2 səviyyəsi,b
+232,Ozonun atmosferdəki əsas funksiyası nədir?,Karbon qazını artırmaq,Su buxarını azaltmaq,Günəşin ultrabənövşəyi şüalarını udmaq.,Havanın təmizliyini qorumaq,Azot qazını stabilləşdirmək,c
+233,Azərbaycanın iqlimində dolu yağmasının təsiri nədir?,Bitkilərin məhsuldarlığını artırır,Taxıl istehsalını artırır,Havanın təzyiqini sabit saxlayır,Günəş radiasiyasını azaldır,Kənd təsərrüfatına ziyan vurur.,e
+234,Dağlıq ərazilərdə təsərrüfat üçün hansı şərait mövcuddur?,Yüksək buxarlanma,Subtropik iqlim,Külək enerjisi,Dəmyə əkinçiliyi.,Azot miqdarının artması,d
+235,Qobustan və Abşeronda ən çox hansı iqlim xüsusiyyəti müşahidə olunur?,Günəş radiasiyası,Yüksək temperatur,Mülayim yağışlar,Güclü küləklər.,Su buxarının azlığı,d
+236,Kür-Araz ovalığı hansı xüsusiyyətləri ilə seçilir?,Külək enerjisi ilə,Yüksək yağıntı miqdarı ilə,Subtropik meşə zonası ilə,Taxıl bitkilərinin qışda becərilməsi ilə.,Dağlıq relyef xüsusiyyətləri ilə,d
+237,Azərbaycanın iqlimi kənd təsərrüfatına necə təsir edir?,Taxıl istehsalını artırır,Bütün ərazilərdə eyni təsir göstərir,Suvarma ehtiyacını azaldır,Təbii qaz ehtiyatlarını artırır,Müxtəlif bitkilərin becərilməsinə imkan verir.,e
+238,Leysan yağışlarının təsiri nədir?,Torpağı gübrələndirir,Karbon qazını sabit saxlayır,Havanın rütubətini artırır,Yamaclarda yarğanlar yaradır.,Ozon qatını gücləndirir,d
+239,Rekreasiya resursları nəyə daxildir?,CO2-nin azalması,Yeraltı su resursları,İqlim dəyişiklikləri,Aqroiqlim ehtiyatları,"Günəşli günlərin çoxluğu, landşaftlar.",e
+240,Aqroiqlim ehtiyatlarının əsas göstəricisi hansıdır?,Ozon qatının qalınlığı,Su buxarının səviyyəsi,Külək sürəti,Günəş şüalarının miqdarı,Effektiv temperatur.,e
+241,Quraqlığın kənd təsərrüfatına təsiri nədir?,Yağıntıların miqdarını sabit saxlayır,Rütubət miqdarını artırır,Bitkilərin məhsuldarlığını artırır,Torpaqdakı rütubəti azaldır.,Təbii ehtiyatları qoruyur,d
+242,Azərbaycanın hansı bölgəsində dəmyə əkinçilik mümkündür?,Qobustan və Abşeron,Xəzər sahilləri,Talış dağları,Dağətəyi zonalar.,Kür-Araz ovalığı,d
+243,Atmosferin əsas qazları arasında həyat üçün vacib olmayan hansıdır?,Azot,Neon,Karbon qazı,Argon.,Oksigen,d
+244,Azot qazının təsiri ilə hansı dəyişikliklər yaranır?,Karbon dövrü tamamlanır,Atmosfer təzyiqi artır,Havanın turbulentliyi güclənir,İnsanlarda psixoloji dəyişikliklər yaranır.,CO2 səviyyəsi sabit qalır,d
+245,Ekzosferdə hansı qaz üstünlük təşkil edir?,Karbon qazı,Argon,Azot,Hidrogen.,Oksigen,d
+246,Yüksək atmosfer təzyiqi azot qazına necə təsir edir?,Azotun miqdarını azaldır,Azotun havadan yox olmasına səbəb olur,Onun oksigenlə birləşməsini təmin edir,Azotun inert qaz kimi qalmasını təmin edir,Azotun narkotik təsir göstərməsinə səbəb olur,e
+247,Atmosferdə karbon qazının artması hansı qlobal problemə səbəb olur?,Ozon qatının parçalanması,Su buxarının çoxalması,İqlim dəyişikliklərinin azalması,Qlobal istiləşmə,Tropik fırtınaların artması,d
+248,İqlimin əsas elementi nədir?,Su,Günəş radiasiyası,Vulkan püskürmələri,atmosfer,Daş qatı,b
+249,Troposferdə hava hərəkəti nəyi təmin edir?,Yerin maqnit sahəsini,Daş qatı,Vulkan püskürmələrini,Havanın çirklənməsini,İqlim hadisələrini və hava şəraitini,e
+250,Atmosfer təbəqələri hansılardır?,"Litosfer, biosfer, troposfer, termosfer","Stratosfer, troposfer, hidrosfer","Troposfer, stratosfer, mezosfer, termosfer, ekzosfer","Atmosfer, stratosfer, biosfer","troposfer, hidrosfer, stratosfer",c
