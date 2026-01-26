@@ -16,17 +16,5 @@
     "name": "Maliyyə hesabatlılığı",
     "csvFile": "csv/maliyye-hesabatliligi-questions.csv",
     "questionCount": 248
-  },
-  {
-    "id": 4,
-    "name": "Sənayənin iqtisadiyyatı",
-    "csvFile": "csv/senayenin-iqtisadiyyati-questions.csv",
-    "questionCount": 244
-  },
-  {
-    "id": 5,
-    "name": "Reklam işi",
-    "csvFile": "csv/reklam-ishi-questions.csv",
-    "questionCount": 246
   }
 ]
