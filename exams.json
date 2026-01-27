@@ -16,5 +16,11 @@
     "name": "Maliyyə hesabatlılığı",
     "csvFile": "csv/maliyye-hesabatliligi-questions.csv",
     "questionCount": 500
+  },
+  {
+    "id": 4,
+    "name": "Sənayenin iqtisadiyyatı",
+    "csvFile": "csv/senayenin-iqtisadiyyati-questions.csv",
+    "questionCount": 457
   }
 ]
